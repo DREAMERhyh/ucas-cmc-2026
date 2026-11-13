@@ -375,7 +375,7 @@ $L=xy+\lambda(x+y-2)$；$L_x=y+\lambda=0$，$L_y=x+\lambda=0$，$x+y=2$，解得
 
 **【框架 1：构造一元辅助函数 + 中值定理】**（10 届大五模板）
 把"两点之差"压成"一元函数的增量"：
-$$\varphi(t)=f\big(x_1+t(x_2-x_1),\ y_1+t(x_2-y_1)\big),\qquad t\in[0,1],$$
+$$\varphi(t)=f\big(x_1+t(x_2-x_1),\ y_1+t(y_2-y_1)\big),\qquad t\in[0,1],$$
 则 $f(B)-f(A)=\varphi(1)-\varphi(0)=\varphi'(c)$，而 $\varphi'(c)=f_x\cdot(x_2-x_1)+f_y\cdot(y_2-y_1)$——再用 **Cauchy 不等式** $|f_x\Delta x+f_y\Delta y|\le\sqrt{f_x^2+f_y^2}\sqrt{\Delta x^2+\Delta y^2}$ 放缩。**"沿直线段走"是它全部的灵魂。**
 
 **【框架 2：Green 公式把偏导组合转成区域积分】**（13 补大三模板）
